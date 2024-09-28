@@ -1,0 +1,33 @@
+<header>
+  <div class="navbar navbar-dark bg-light shadow-sm">
+    <div class="navbar-brand align-item-centre d-flex">
+      <i class="bi bi-shop" style="font-size: 22px; color: #000; margin-left: 62px; margin-top: 4px;"></i>
+      <strong style="color: black; font-size: 25px;">connexTech</strong>
+    </div>
+
+    <div class="navbar navbar-dark shadow-sm">
+      <button class="btn btn-light" routerLink="/home">
+        <strong>Home</strong>
+      </button>
+      <button routerLink="/products" class="btn btn-light">
+        <strong>Products</strong>
+      </button>
+      
+
+      <!-- Bouton du panier -->
+      <button class="btn btn-light" *ngIf="isLoggedIn">
+        <i class="bi bi-cart-plus-fill" style="font-size: 30px;" routerLink="/cart"></i>
+        <div class="badge bg-dark" style="font-size: 10px;">0</div>
+      </button>
+
+      <!-- Bouton de connexion -->
+      <button class="sing" style="font-size: 10px;" (click)="login()" *ngIf="!isLoggedIn">Log-in</button>
+
+      <!-- Bouton d'inscription -->
+      <button class="sing" style="font-size: 10px;" (click)="signup()" *ngIf="!isLoggedIn">Sign-up</button>
+
+      <!-- Bouton de déconnexion -->
+      <button class="sing" style="font-size: 10px;" (click)="logout()" *ngIf="isLoggedIn">Log-out</button>
+    </div>
+  </div>
+</header>

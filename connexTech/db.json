@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iphone",
+      "prix": 4000,
+      "image": "assets/iphone.jpg",
+      "desc": "Ecran 6.7 HDR OLED Super Retina XDR (1290 x 2796 px) - Processeur Apple A16 Bionic Hexa Core - Etanche IP68 - RAM 6 Go - Mémoire 128 Go - Système d’exploitation iOS 16 - Appareils Photos 48Mp - 5G - Wi-Fi 6 AX - Bluetooth 5.3 - Batterie Li-Ion - Couleur Noir "
+    },
+    {
+      "id": 2,
+      "title": "oppo",
+      "prix": 1700,
+      "image": "assets/oppo.jpg",
+      "desc": "Double SIM - Écran 6.72 Full HD+ (2400×1080 px) - Processeur MediaTek Helio G85 (8 cœurs, jusqu'à 2,0 GHz) - RAM 8 Go - Stockage 128 Go - Caméra principale: 50 MP, Objectif 5P - Caméra monochrome: 2 MP - Caméra Avant : 8 MP - Batterie 5000 mAh - Charge rapide: SUPERVOOCTM 33W, VOOC - USB-C - Empreinte digitale - Reconnaissance faciale - Android 13 - Wi-Fi 5 - 4G - Bluetooth 5.3 - jack 3.5 mm"
+    },
+    {
+      "id": 3,
+      "title": "itel",
+      "prix": 150,
+      "image": "assets/itel.jpg",
+      "desc": "Double SIM - Ecran 5 Processeur Quad-Core - RAM 2 Go - Stockage 32 Go - Appareils Photo: 5MP (arrière), 2MP (Frontale) - Android 11 - Lecteur d'empreintes digitales - Batterie 3020 mAh - 3G - WiFi - Bluetooth - Couleur Bleu "
+    },
+    {
+      "id": 4,
+      "title": "infinix",
+      "prix": 500,
+      "image": "assets/infinix.jpg",
+      "desc": "Double SIM - Écran 6,6 HD+ - Taux de rafraichissement 90Hz - Processeur : MediaTek Helio G37 - RAM 8 Go (UP TO 16GB) - Mémoire 128 Go - Appareil Photo Arriére: 50MP - Appareil Photo Frontale 8 MP - Android 12 - Lecteur d'empreinte digitale - 4G - Wifi - Bluetooth - Batterie 5000 mAh - Couleur black"
+    },
+    {
+      "id": 5,
+      "title": "Nokia",
+      "prix": 100,
+      "image": "assets/nokia.jpg",
+      "desc": "Double SIM - Ecran 5.45 FWVGA+ IPS - Processeur Quad Core 1.3 GHz - RAM 1 Go - Mémoire 16 Go Extensible jusqu'à 64 Go - Android 9.0 Pie - Appareils Photo: 5MP Arrière, 5MP Frontal - 3G - Wifi - Bluetooth - GPS - Batterie 2500 mAh - Couleur Purple"
+    },
+    {
+      "id": 6,
+      "title": "huawei",
+      "prix": 100,
+      "image": "assets/huawei.jpg",
+      "desc": "fhvjhfvjfhvj"
+    },
+    {
+      "id": 7,
+      "title": "samsung",
+      "prix": 100,
+      "image": "assets/samsung.jpg",
+      "desc": "fhvjhfvjfhvj"
+    }
+  ],
+  "panier": [
+    {
+      "id": 1,
+      "title": "iphone",
+      "prix": 4000,
+      "image": "assets/iphone.jpg",
+      "desc": "fhvjhfvjfhvj"
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "username": "houssem",
+      "email": "houssemnaffouti28@gmail.com",
+      "password": "admin"
+    }
+  ]
+}

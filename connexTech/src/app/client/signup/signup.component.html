@@ -1,0 +1,23 @@
+<body>
+    <div class="wrapper">
+      <i style="--clr:green;"></i>
+      <i style="--clr:rgb(201, 25, 90);"></i>
+      <i style="--clr:rgb(229, 232, 75);"></i>
+      <div class="login">
+        <h2>Login</h2>
+        <form #loginForm="ngForm" >
+          <input type="text" placeholder="firstname" ngModel name="firstname" required>
+          <input type="text" placeholder="lastename" ngModel name="lastename" required>
+          <input type="email" placeholder="email" ngModel name="email" required>
+
+
+          <input type="password" name="password" placeholder="password" ngModel required>
+          <input type="submit" value="creer account">
+        </form>
+        <div class="links">
+          <a href="#">Forgot password</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  

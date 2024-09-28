@@ -1,0 +1,9 @@
+.sing{
+    border: 2px solid white;
+    background-color: white;
+
+    
+}
+.sing:hover{
+    color: blueviolet;
+}
