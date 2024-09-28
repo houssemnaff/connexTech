@@ -1,0 +1,22 @@
+nav a
+{ 
+ text-decoration: none; 
+ display:inline-block; 
+ margin : 0px; 
+ padding:5px; 
+ color:rgb(30, 19, 4);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+ border-right:solid rgb(23, 23, 26) 3px ;
+} 
+nav
+{ 
+ background-color: #c9b3b3; 
+} 
+a:active 
+{ 
+ color:black; 
+}
+.active {
+    background-color : rgb(228, 136, 55)
+}

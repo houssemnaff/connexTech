@@ -1,0 +1,17 @@
+<table class="table table-strinped">
+    <tr>
+        <th>id</th><th>nom</th><th>description</th>
+    </tr>
+    <tbody *ngFor="let film of tabFilms; let index=index">
+        <tr>
+            <td>{{film.id}}</td>
+            <td>{{film.nom}}</td>
+            <td>{{film.description}}</td>
+            <td><button class="btn btn-success" [routerLink]="['/admin/modifier',film.id]">modifier</button></td>
+            <td><a class="btn btn-info" [routerLink]="['/admin/details',film.id]">Details</a></td>
+            <td><button type="button" (click)="supprimer(index)" class="btn btn-danger">supprimer</button></td>
+        </tr>
+
+    </tbody>
+
+</table>

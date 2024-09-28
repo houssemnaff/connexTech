@@ -1,0 +1,11 @@
+<h1>modifier d'une film </h1>
+<form action="" >
+    <div class="contenu">
+        <label>Nom du film</label><br> <input type="text" value="{{f.nom}}" #name><br>
+        <label>Description du film</label> <br><input type="text" value="{{f.description}}" #desc><br> 
+        <button class="btnInfo" (click)="update(desc.value,name.value)">update</button>
+     </div>
+     <div>
+        <a routerLink="/admin/lister-films" >retour</a>
+    </div>
+</form>
